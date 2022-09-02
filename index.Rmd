@@ -1,0 +1,37 @@
+---
+title: "BLOG POST UPDATE"
+author: "umesh rao"
+date: "2022-08-30"
+output:  
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache=TRUE)
+```
+# Header 1
+## Header 2
+### Header 3
+## R Markdown
+1. unordered list  
+2. item 2
+    + sub-item 1
+    + sub-item 2
+        + sub-sub-item1
+    
+    
+    task | effort | owner
+    ---- | ------ | -----
+    A    | 10     | umesh
+    B    | 20     | Rao
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.<br>   For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+~~When~~ you *click* the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this ![](C:\Users\umerao\Downloads\WhatsApp Image 2022-08-23 at 2.39.07 AM.jpeg):
+
+
+```{r cars}
+summary(cars)
+```
